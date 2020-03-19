@@ -19,7 +19,7 @@ export const VideoBlock = ({ handleClick, className, isOpen }) => {
   return (
     <div className={`${className}${modify}`} onClick={handleClick}>
       <ReactPlayer
-        url="https://www.youtube.com/watch?v=oJnF5VxTO5g"
+        url="https://www.youtube.com/watch?v=hajnEpCq5SE"
         playing={isOpen}
         controls
         width="none"
