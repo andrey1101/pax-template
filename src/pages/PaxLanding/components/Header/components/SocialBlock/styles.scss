@@ -1,0 +1,44 @@
+@import '../../../../../../styles/constants/index.scss';
+@import '../../../../../../styles/_mixins.scss';
+
+.social-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.social-icon {
+  &__wrapper {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    &:first-child {
+      border: 1px solid #3c5a99;
+    }
+
+    &:last-child {
+      border: 1px solid #28aae1;
+    }
+
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      transition: all $animTimeDefault;
+    }
+    .social-icon__icon {
+      div {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

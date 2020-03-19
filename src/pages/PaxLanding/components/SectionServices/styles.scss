@@ -1,0 +1,21 @@
+@import '../../../../styles/constants/index.scss';
+@import '../../../../styles/_mixins.scss';
+
+.services {
+  padding-top: 80px;
+
+  &__container {
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+
+  .button {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 10000;
+    opacity: 1;
+    width: 60px;
+    border-radius: 50%;
+  }
+}

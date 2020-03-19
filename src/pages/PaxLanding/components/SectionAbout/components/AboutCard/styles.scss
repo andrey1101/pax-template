@@ -1,0 +1,35 @@
+@import '../../../../../../styles/constants/index.scss';
+@import '../../../../../../styles/_mixins.scss';
+
+.about {
+  &__card {
+    width: 100%;
+    max-width: 582px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+
+    p {
+      font-family: $fontFamilyBaseLight, sans-serif;
+      color: $textPrimary;
+      width: 90%;
+    }
+  }
+
+  &__card-blockquote {
+    margin-bottom: 40px;
+    font-style: italic;
+    font-size: 24px;
+
+    @media screen and (max-width: $deviceSizeXS) {
+      font-size: $fontSizeBase;
+    }
+  }
+
+  &__card-author {
+    font-size: 18px;
+  }
+}

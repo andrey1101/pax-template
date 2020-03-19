@@ -1,0 +1,71 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+
+  &__inner {
+    &--fluid-width {
+      width: 100%;
+    }
+    &--align-center {
+      align-items: center;
+      text-align: center;
+    }
+    &--margin-bottom {
+      margin-bottom: 100px;
+
+      @media screen and (max-width: $deviceSizeSM) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  &__inner-title {
+    font-family: $fontFamilyBaseBold;
+    font-size: 72px;
+    line-height: 1.3em;
+    margin-bottom: 16px;
+
+    @media screen and (max-width: $deviceSizeSM) {
+      font-size: 56px;
+    }
+
+    &--color-title-white {
+      color: $white;
+    }
+    &--color-title-blue {
+      color: $mainColor;
+    }
+    &--color-title-grey {
+      color: $textSecondary;
+    }
+  }
+
+  &__inner-subtitle {
+    font-family: $fontFamilyBaseLight;
+    font-size: 36px;
+    line-height: 1em;
+
+    @media screen and (max-width: $deviceSizeSM) {
+      font-size: 24px;
+    }
+
+    &--color-subtitle-white {
+      color: $white;
+    }
+    &--color-subtitle-blue {
+      color: $mainColor;
+    }
+
+    &--color-subtitle-grey {
+      color: $textSecondary;
+    }
+
+    &--color-subtitle-light-blue {
+      color: #5483bb;
+    }
+  }
+}

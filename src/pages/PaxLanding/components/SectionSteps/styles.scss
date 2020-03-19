@@ -1,0 +1,53 @@
+@import '../../../../styles/constants/index.scss';
+@import '../../../../styles/_mixins.scss';
+
+.steps {
+  background-color: $mainColor;
+  padding-top: 80px;
+
+  &__container {
+    padding-top: 114px;
+    padding-bottom: 130px;
+  }
+
+  &__info-block {
+    display: flex;
+    margin-bottom: 84px;
+
+    @media screen and (max-width: $deviceSizeMD) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__info-block-image {
+    padding-right: 54px;
+
+    @media screen and (max-width: $deviceSizeMD) {
+      padding: 0 0 54px 0;
+    }
+
+    img {
+      @media screen and (max-width: $deviceSizeMD) {
+        width: 100%;
+        max-width: 520px;
+      }
+    }
+  }
+
+  &__info-block-content-item {
+    font-family: $fontFamilyBaseLight;
+    font-size: $fontSizeBase;
+    color: $white;
+    text-align: left;
+
+    @media screen and (max-width: $deviceSizeMD) {
+      width: 100%;
+      max-width: 520px;
+    }
+
+    &:not(:last-child) {
+      padding-bottom: 36px;
+    }
+  }
+}

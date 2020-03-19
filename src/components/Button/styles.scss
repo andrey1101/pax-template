@@ -1,0 +1,56 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.button {
+  max-height: 60px;
+  padding: 16px 40px;
+  display: inline-flex;
+  border-radius: $borderRadius;
+  cursor: pointer;
+  transition: all $animTimeDefault;
+  opacity: 0.9;
+
+  @media screen and (max-width: $deviceSizeSM) {
+    margin-bottom: 60px;
+    padding: 10px 20px;
+    min-height: 50px;
+  }
+  @media screen and (max-width: $deviceSizeXS) {
+    min-width: 140px;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    opacity: 1;
+  }
+
+  &--backgroundColor-blue {
+    background-color: $mainColor;
+  }
+
+  &--backgroundColor-red {
+    background-color: $secondaryColor;
+  }
+
+  &--backgroundColor-white {
+    background-color: $white;
+  }
+
+  &--color-white > button {
+    font-family: $fontFamilyBaseBold;
+    font-size: $fontSizeBase;
+    color: $white;
+  }
+
+  &--color-blue > button {
+    font-family: $fontFamilyBaseBold;
+    font-size: $fontSizeBase;
+    color: $mainColor;
+  }
+}

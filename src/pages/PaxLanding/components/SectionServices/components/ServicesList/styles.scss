@@ -1,0 +1,68 @@
+@import '../../../../../../styles/constants/index.scss';
+@import '../../../../../../styles/_mixins.scss';
+
+.services {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 30px;
+
+    @media screen and (max-width: $deviceSizeSM) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: $deviceSizeXS) {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+  }
+
+  &__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 270px;
+    height: 100%;
+    margin: 0 auto;
+
+    @media screen and (max-width: $deviceSizeSM) {
+      margin: 0 auto;
+    }
+  }
+  &__list-item-title {
+    font-family: $fontFamilyBaseBold;
+    font-size: 30px;
+    margin-bottom: 22px;
+    color: $textSecondary;
+
+    @media screen and (max-width: $deviceSizeXS) {
+      margin-bottom: 18px;
+    }
+  }
+
+  &__list-item-subtitle {
+    font-family: $fontFamilyBaseLight;
+    font-size: $fontSizeBase;
+    color: $textPrimary;
+  }
+
+  &__list-item-icon {
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    height: 92px;
+    margin-bottom: 52px;
+
+    @media screen and (max-width: $deviceSizeXS) {
+      margin-bottom: 18px;
+    }
+
+    & > div > svg {
+      fill: $secondaryColor;
+      stroke: $secondaryColor;
+    }
+  }
+}

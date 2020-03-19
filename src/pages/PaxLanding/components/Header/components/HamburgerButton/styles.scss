@@ -1,0 +1,68 @@
+@import '../../../../../../styles/constants/index.scss';
+
+.hamburger-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  display: none;
+  padding: 0;
+
+  @media screen and (max-width: $deviceSizeMD) {
+    display: block;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    transition: all $animTimeDefault;
+  }
+  p {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: $mainColor;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: $animTimeDefault ease;
+
+    &:nth-of-type(1) {
+      top: 25%;
+      left: 0;
+    }
+
+    &:nth-of-type(2) {
+      top: 50%;
+      right: 0;
+    }
+
+    &:nth-of-type(3) {
+      top: 75%;
+      left: 0;
+    }
+  }
+
+  &--open {
+    p {
+      background-color: $mainColor;
+
+      &:nth-of-type(1) {
+        top: 50%;
+        transform: rotate(135deg);
+      }
+
+      &:nth-of-type(2) {
+        opacity: 0;
+        right: 20px;
+      }
+
+      &:nth-of-type(3) {
+        top: 50%;
+        transform: rotate(-135deg);
+      }
+    }
+  }
+}

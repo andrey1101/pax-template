@@ -1,0 +1,8 @@
+@import './../../styles/index.scss';
+@import './../../styles/_mixins.scss';
+
+.avatar {
+  &--margin-bottom {
+    margin-bottom: 44px;
+  }
+}

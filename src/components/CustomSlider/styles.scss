@@ -1,0 +1,87 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.slick-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-list {
+  max-width: $deviceSizeMD;
+}
+.slick-arrow {
+  position: unset;
+  height: auto;
+  width: auto;
+
+  &::before {
+    content: none;
+  }
+
+  div > div {
+    border: 1px solid #e3e7eb;
+    padding: 8px;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      border: 1px solid $textPrimary;
+      transition: all $animTimeDefault;
+    }
+
+    @media screen and (max-width: $deviceSizeSM) {
+      height: 60px;
+      width: 60px;
+    }
+    @media screen and (max-width: $deviceSizeXS) {
+      height: 48px;
+      width: 48px;
+    }
+  }
+}
+
+.slick-dots {
+  border: 1px solid transparent;
+  border-radius: 50%;
+
+  li.slick-active {
+    button {
+      transform: translate(-50%, -50%);
+      font-size: unset;
+      padding: unset;
+      line-height: unset;
+      &:before {
+        opacity: 1;
+        color: unset;
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        transform: translate(100%, 100%);
+        background-color: $textPrimary;
+        border-radius: 50%;
+      }
+    }
+  }
+  li {
+    &:hover {
+      transform: scale(1.2);
+      transition: all $animTimeDefault;
+    }
+    @media screen and (max-width: $deviceSizeXS) {
+      transform: scale(0.8);
+    }
+    button {
+      font-size: unset;
+      line-height: unset;
+      padding: unset;
+      &:before {
+        color: unset;
+        opacity: unset;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../../../../../styles/constants/index.scss';
+@import '../../../../../../styles/_mixins.scss';
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transform: translateY(5px);
+  width: 100%;
+  font-size: 20px;
+
+  @media screen and (max-width: $deviceSizeMD) {
+    display: none;
+  }
+
+  &__block-item {
+    &:last-child {
+      margin-right: 16px;
+    }
+
+    & > a {
+      color: $textSecondary;
+      padding: 12px 18px;
+      border: 1px solid transparent;
+      border-radius: $borderRadius;
+
+      &:hover {
+        color: $textSecondary;
+        text-decoration: none;
+        border: 1px solid $textSecondary;
+        transition: all $animTimeSlow;
+      }
+    }
+  }
+}
