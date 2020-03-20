@@ -8,7 +8,7 @@ import './styles.scss';
 
 // ----------------
 
-export const Copyright = ({ className, text }) => {
+export const ContentBlock = ({ className, text, copyright }) => {
   // Modify
 
   const modify = classNames({
@@ -20,16 +20,17 @@ export const Copyright = ({ className, text }) => {
   return (
     <div className={`${modify}`}>
       <p>{text}</p>
+      <p>{copyright}</p>
     </div>
   );
 };
 
 // Type of props
 
-Copyright.propTypes = {
+ContentBlock.propTypes = {
   prop: types.string,
 };
 
 // Default value for props
 
-Copyright.defaultProps = {};
+ContentBlock.defaultProps = {};

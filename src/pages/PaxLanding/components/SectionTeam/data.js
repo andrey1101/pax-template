@@ -14,28 +14,29 @@ export const teamItem = [
   {
     avatar: avatarFirst,
     alt: 'first-avatar',
-    title: 'Lorem Ipsum',
+    title: 'Dan Crawford',
     subtitle:
-      'Cras vel eleifend nisl, ac efficitur purus. Vestibulum vestibulum aliquam lectumattis ac.',
+      'Dan is also no stranger to management and Six Sigma training, especially in connection with the SCRUM model.',
   },
   {
     avatar: avatarSecond,
     alt: 'second-avatar',
-    title: 'Aenean eget',
-    subtitle: 'Donec sagittis accumsan diam.',
+    title: 'Isaac Dietrich',
+    subtitle:
+      'A decade in software development starting with desktop applications, moving to database applications, and finally full-stack development.',
   },
   {
     avatar: avatarThird,
     alt: 'third-avatar',
-    title: 'Nulla felis quam',
+    title: 'Kate LaMont',
     subtitle:
-      'Nulla felis quam, malesuada quis tincidunt vitae, iaculis id massa. Mauris pellentesque.',
+      'Kate is responsible for developing and maintaining responsive web-based software.',
   },
   {
     avatar: avatarFourth,
     alt: 'fourth-avatar',
-    title: 'Mauris',
+    title: 'Lisa Dietrich',
     subtitle:
-      'Pellentesque posuere nisi a posuere mattis. Quisque nuet congue at, variuse.',
+      'She specializes in State Aid Notification Systems and generally at systems analyze.',
   },
 ];

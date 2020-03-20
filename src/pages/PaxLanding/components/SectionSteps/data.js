@@ -15,16 +15,16 @@ export const image = {
 export const content = [
   {
     contentItem:
-      'Nam accumsan nunc sit amet elementum sollicitudin. Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.',
+      'PAX uses the engagement model of a dedicated team. This means  we act as an extension of our clients’ teams, with nearshore specialists working within the existing culture of a company.',
   },
 
   {
     contentItem:
-      'Quisque ut erat ornare, feugiat turpis a, fringilla felis. Nulla molestie lorem et orci sagittis, et accumsan ex porta.',
+      'Our service is ideal for companies that need more performance for their in-house development team, especially if you want to bring in outside experts to share knowledge.',
   },
 
   {
     contentItem:
-      'Maecenas consequat velit tellus, vel hendrerit massa fringilla eu. Suspendisse potenti. Maecenas viverra tortor sed metus euismod, at luctus massa aliquam.',
+      'By providing dedicated software developers, we play a role in taking care of your company’s technical resources. Most importantly, this type of engagement allows us to build long-term relationships with you.',
   },
 ];

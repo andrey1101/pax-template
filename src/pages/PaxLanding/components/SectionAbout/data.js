@@ -7,29 +7,29 @@ export const aboutItem = [
   {
     avatar: avatarFirst,
     blockquote:
-      '“You add a comment anywhere on a project, this is a fast and easy way to gather input and proposed changes from your client.”',
-    author: 'Lorem ipsum',
+      '“Working at PAX means that the things you work on get into the hands of hundreds of millions of people..”',
+    author: 'Dan Crawford',
     id: '1',
   },
   {
     avatar: avatarSecond,
     blockquote:
-      '“You add a comment anywhere on a project, this is a fast and easy way to gather input and proposed changes from your client.”',
-    author: 'Aenean eget',
+      '“The company was very friendly to work with. The work culture is awesome with super flexible hours.”',
+    author: 'Isaac Dietrich',
     id: '2',
   },
   {
     avatar: avatarThird,
     blockquote:
-      '“You add a comment anywhere on a project, this is a fast and easy way to gather input and proposed changes from your client.”',
-    author: 'Nulla felis quam',
+      "“I've learned so many things from working at PAX. How to manage time. How to communicate with people from all backgrounds.”",
+    author: 'Kate LaMont',
     id: '3',
   },
   {
     avatar: avatarFourth,
     blockquote:
-      '“You add a comment anywhere on a project, this is a fast and easy way to gather input and proposed changes from your client.”',
-    author: 'Mauris',
+      '“A decent work culture with lot of opportunities to learn and explore new frameworks on UI.”',
+    author: 'Lisa Dietrich',
     id: '4',
   },
 ];

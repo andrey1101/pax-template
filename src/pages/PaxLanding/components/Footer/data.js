@@ -1,125 +1,21 @@
+import imageFirst from '../../../../assets/icons/map-marker-icon.svg';
+import imageSecond from '../../../../assets/icons/mail-icon.svg';
+
 export const footerList = [
   {
-    listFooter: [
-      {
-        listItem: 'Ad litora torquent',
-      },
-      {
-        listItem: 'Per conubia',
-      },
-      {
-        listItem: 'Nostra',
-      },
-      {
-        listItem: 'Per inceptos',
-      },
-      {
-        listItem: 'Himenaeos',
-      },
-      {
-        listItem: 'In consectetur',
-      },
-      {
-        listItem: 'Nisi sed blandit',
-      },
-      {
-        listItem: 'Tincidunt',
-      },
-    ],
+    image: imageFirst,
+    listName: 'Come Visit',
+    listText: '1600 Amphitheatre Parkway Mountain View, CA 94043 US',
   },
   {
-    listFooter: [
-      {
-        listItem: 'Class aptent',
-      },
-      {
-        listItem: 'Taciti sociosqu',
-      },
-      {
-        listItem: 'Ad litora torquent',
-      },
-      {
-        listItem: 'Per conubia',
-      },
-      {
-        listItem: 'Nostra',
-      },
-      {
-        listItem: 'Per inceptos',
-      },
-      {
-        listItem: 'Himenaeos',
-      },
-      {
-        listItem: 'In consectetur',
-      },
-      {
-        listItem: 'Nisi sed blandit',
-      },
-      {
-        listItem: 'Tincidunt',
-      },
-    ],
-  },
-  {
-    listFooter: [
-      {
-        listItem: 'Taciti sociosqu',
-      },
-      {
-        listItem: 'Ad litora torquent',
-      },
-      {
-        listItem: 'Per conubia',
-      },
-      {
-        listItem: 'Nostra',
-      },
-      {
-        listItem: 'Per inceptos',
-      },
-      {
-        listItem: 'Himenaeos',
-      },
-      {
-        listItem: 'In consectetur',
-      },
-      {
-        listItem: 'Nisi sed blandit',
-      },
-      {
-        listItem: 'Tincidunt',
-      },
-    ],
-  },
-  {
-    listFooter: [
-      {
-        listItem: 'Per conubia',
-      },
-      {
-        listItem: 'Nostra',
-      },
-      {
-        listItem: 'Per inceptos',
-      },
-      {
-        listItem: 'Himenaeos',
-      },
-      {
-        listItem: 'In consectetur',
-      },
-      {
-        listItem: 'Nisi sed blandit',
-      },
-      {
-        listItem: 'Tincidunt',
-      },
-    ],
+    image: imageSecond,
+    listName: 'Contact Us',
+    listText: 'paxtemplate@gmail.com',
   },
 ];
 
-export const copyright = {
+export const contentBlock = {
   text:
-    'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    'We are united by the idea of creating world-class projects and products. And we have everything necessary for this: possesion of a wide stack of technologies, a proven professional team and a reliable business support system, authority in international markets. And the most important thing in the experience and ability to integrate modern technologies into new projects, ideas, solutions.',
+  copyright: 'Copyright © 2020 by PAX Template. All rights reserved.',
 };

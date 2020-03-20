@@ -16,7 +16,7 @@ export const ServicesList = ({ item }) => {
         return (
           <div key={index} className="services__list-item">
             <ReactSVG className="services__list-item-icon" src={icon} />
-            <p className="services__list-item-title">{title}</p>
+            <h3 className="services__list-item-title">{title}</h3>
             <p className="services__list-item-subtitle">{subtitle}</p>
           </div>
         );

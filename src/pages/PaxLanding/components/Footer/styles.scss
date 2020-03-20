@@ -4,12 +4,15 @@
 .footer {
   padding-top: 80px;
   background-color: $mainColor;
+
   &__container {
-    display: block;
+    display: flex;
+    flex-direction: unset;
+    align-items: flex-start;
     color: $white;
     font-size: $fontSizeBase;
 
-    @media screen and (max-width: $deviceSizeXS) {
+    @media screen and (max-width: $deviceSizeMD) {
       display: flex;
       flex-direction: column;
       align-items: center;

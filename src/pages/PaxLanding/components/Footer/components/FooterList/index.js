@@ -1,5 +1,6 @@
 import types from 'prop-types';
 import React from 'react';
+import { ReactSVG } from 'react-svg';
 
 // Styles
 
@@ -12,16 +13,12 @@ export const FooterList = ({ className, footerList }) => {
 
   return (
     <div className={`${className}`}>
-      {footerList.map(({ listFooter }, index) => {
+      {footerList.map(({ image, listName, listText }, index) => {
         return (
-          <div key={index} className="footer__list">
-            {listFooter.map(({ listItem }, index) => {
-              return (
-                <div key={index} className="footer__list-item">
-                  <a>{listItem}</a>
-                </div>
-              );
-            })}
+          <div key={index} className={`${className}-block`}>
+            <ReactSVG className={`${className}-block-image`} src={image} />
+            <h3>{listName}</h3>
+            <p>{listText}</p>
           </div>
         );
       })}

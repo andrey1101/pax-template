@@ -52,6 +52,8 @@
   &__list-item-title {
     font-family: $fontFamilyBaseBold;
     font-size: 30px;
+    line-height: 1.2em;
+    min-height: 72px;
     margin-bottom: 22px;
     color: $textSecondary;
   }

@@ -30,7 +30,7 @@ export const TeamList = ({ item, marginBottom }) => {
               alt={alt}
               marginBottom
             />
-            <p className="team__list-item-title">{title}</p>
+            <h3 className="team__list-item-title">{title}</h3>
             <p className="team__list-item-subtitle">{subtitle}</p>
           </div>
         );

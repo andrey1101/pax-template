@@ -7,26 +7,27 @@ import iconToTop from '../../../../assets/icons/to-top-icon.svg';
 export const servicesItem = [
   {
     icon: commentsIcon,
-    title: 'Lorem Ipsum',
+    title: 'Team Augmentation',
     subtitle:
-      'Cras vel eleifend nisl, ac efficitur purus. Vestibulum vestibulum aliquam lectumattis ac.',
+      'Let our team of engineers boost your team of engineers into overdrive.',
   },
   {
     icon: triangleIcon,
-    title: 'Aenean eget',
-    subtitle: 'Donec sagittis accumsan diam.',
+    title: 'Consulting Services',
+    subtitle:
+      'Do you need help designing the backend architecture? Or corralling dependencies?',
   },
   {
     icon: ideaIcon,
-    title: 'Nulla felis quam',
+    title: 'Systems Management',
     subtitle:
-      'Nulla felis quam, malesuada quis tincidunt vitae, iaculis id massa. Mauris pellentesque.',
+      'PAX not only builds projects from scratch, we support ongoing programs as well.',
   },
   {
     icon: desktopIcon,
-    title: 'Mauris',
+    title: 'Software Development',
     subtitle:
-      'Pellentesque posuere nisi a posuere mattis. Quisque nuet congue at, variuse.',
+      'When you hire PAX, you are hiring a team of professionals dedicated to executing on your vision.',
   },
 ];
 
