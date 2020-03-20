@@ -4,7 +4,8 @@
 .footer {
   &__content {
     max-width: 750px;
-    padding: 50px 100px 0 0;
+    padding-right: 100px;
+
     @media screen and (max-width: $deviceSizeMD) {
       padding: 0 0 80px;
       max-width: 520px;
