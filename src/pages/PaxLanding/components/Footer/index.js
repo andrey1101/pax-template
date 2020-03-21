@@ -4,6 +4,7 @@ import React from 'react';
 // Components
 
 import { ContentContainer } from '../../../../components/ContentContainer';
+import LogoName from '../../../../components/LogoName';
 import { FooterList } from './components/FooterList';
 import { ContentBlock } from './components/ContentBlock';
 
@@ -27,7 +28,9 @@ export const Footer = props => {
           className="footer__content"
           text={contentBlock.text}
           copyright={contentBlock.copyright}
-        />
+        >
+          <LogoName className="footer__content-logo" />
+        </ContentBlock>
         <FooterList className="footer__contacts" footerList={footerList} />
       </ContentContainer>
     </div>

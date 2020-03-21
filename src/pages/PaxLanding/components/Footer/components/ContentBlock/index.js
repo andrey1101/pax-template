@@ -8,7 +8,7 @@ import './styles.scss';
 
 // ----------------
 
-export const ContentBlock = ({ className, text, copyright }) => {
+export const ContentBlock = ({ className, text, copyright, children }) => {
   // Modify
 
   const modify = classNames({
@@ -19,6 +19,7 @@ export const ContentBlock = ({ className, text, copyright }) => {
 
   return (
     <div className={`${modify}`}>
+      {children}
       <p>{text}</p>
       <p>{copyright}</p>
     </div>

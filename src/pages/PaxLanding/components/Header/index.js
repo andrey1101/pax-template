@@ -3,12 +3,12 @@ import React, { useState } from 'react';
 
 // Components
 
+import LogoName from '../../../../components/LogoName';
 import { ContentContainer } from '../../../../components/ContentContainer';
 import { SocialBlock } from './components/SocialBlock';
 import { Navbar } from './components/Navbar';
 import AsideDrawer from './components/AsideDrawer';
 import HamburgerButton from './components/HamburgerButton';
-import LogoName from './components/LogoName';
 
 // Static
 
