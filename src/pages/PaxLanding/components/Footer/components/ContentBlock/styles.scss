@@ -2,8 +2,14 @@
 @import '../../../../../../styles/_mixins.scss';
 
 .footer {
+  &__content {
+    p:first-of-type {
+      padding-bottom: 20px;
+    }
+  }
   &__content-logo {
     color: $white;
+    line-height: 1.1em;
     padding-bottom: 20px;
   }
 }
