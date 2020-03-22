@@ -21,9 +21,17 @@ export const VideoBlock = ({ handleClick, className, isOpen }) => {
       <ReactPlayer
         url="https://www.youtube.com/watch?v=hajnEpCq5SE"
         playing={isOpen}
-        controls
         width="none"
         height="none"
+        config={{
+          youtube: {
+            playerVars: {
+              showinfo: 0,
+              controls: 2,
+              rel: 0,
+            },
+          },
+        }}
       />
     </div>
   );

@@ -1,1 +1,33 @@
 @import '../../../../../../styles/constants/index.scss';
+@import '../../../../../../styles/_mixins.scss';
+
+.hero {
+  &__video-block {
+    display: none;
+
+    &--open {
+      display: block;
+      position: absolute;
+      top: 2%;
+      left: 22%;
+      width: 56%;
+      height: 90%;
+      background-color: $black;
+      border-left: 17px solid black;
+      border-right: 17px solid black;
+      border-top-right-radius: 4%;
+      border-top-left-radius: 4%;
+
+      @media screen and (max-width: $deviceSizeSM) {
+        left: 10%;
+        width: 80%;
+      }
+
+      & > div {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 60px $black;
+      }
+    }
+  }
+}

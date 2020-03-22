@@ -16,7 +16,7 @@ import './styles.scss';
 
 // Static
 
-import { heroTitle, image, icon } from './data';
+import { heroTitle, imageLeft, imageCenter, imageRight, icon } from './data';
 
 // ----------------
 
@@ -42,20 +42,36 @@ export const SectionHero = props => {
           marginBottom
         />
         <Button className="hero__button" backgroundColor="red" />
-        <ImageBlock className="hero__image" src={image.src} alt={image.alt}>
-          <Button
-            className="hero__image-button"
-            backgroundColor="white"
-            color="blue"
-            textButton="Play"
-            handleClick={handleToggleAside}
-            isOpen={isAsideOpen}
+        <div className="hero__image-list">
+          <ImageBlock
+            className="hero__list-item"
+            src={imageLeft.src}
+            alt={imageLeft.alt}
+          />
+          <ImageBlock
+            className="hero__list-item"
+            src={imageCenter.src}
+            alt={imageCenter.alt}
           >
-            <ReactSVG src={icon.play} />
-            <ReactSVG src={icon.exit} />
-          </Button>
-          <VideoBlock isOpen={isAsideOpen} className="hero__video-block" />
-        </ImageBlock>
+            <Button
+              className="hero__image-button"
+              backgroundColor="white"
+              color="blue"
+              textButton="Play"
+              handleClick={handleToggleAside}
+              isOpen={isAsideOpen}
+            >
+              <ReactSVG src={icon.play} />
+              <ReactSVG src={icon.exit} />
+            </Button>
+            <VideoBlock isOpen={isAsideOpen} className="hero__video-block" />
+          </ImageBlock>
+          <ImageBlock
+            className="hero__list-item"
+            src={imageRight.src}
+            alt={imageRight.alt}
+          />
+        </div>
       </ContentContainer>
     </div>
   );
