@@ -21,16 +21,8 @@
     top: 110px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
+    justify-content: center;
     padding: 10px 24px;
-  }
-
-  @media screen and (max-width: $deviceSizeXS) {
-    top: 140px;
   }
 
   &--is-open {
@@ -45,15 +37,8 @@
 
     @media screen and (max-width: $deviceSizeSM) {
       top: 110px;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      justify-items: center;
-    }
-    @media screen and (max-width: $deviceSizeXS) {
-      top: 140px;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      justify-items: center;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 

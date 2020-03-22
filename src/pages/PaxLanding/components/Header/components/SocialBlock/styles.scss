@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  @media screen and (max-width: $deviceSizeXS) {
+    display: none;
+  }
 }
 
 .social-icon {

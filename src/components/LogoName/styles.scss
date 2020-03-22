@@ -4,14 +4,10 @@
 .logo {
   font-family: $fontFamilyBaseLight;
   font-size: 36px;
+  line-height: 1em;
   min-width: 218px;
   white-space: nowrap;
   color: $mainColor;
-
-  @media screen and (max-width: $deviceSizeXS) {
-    line-height: 46px;
-    padding-bottom: 8px;
-  }
 
   span:first-child {
     font-family: $fontFamilyBaseBold;
