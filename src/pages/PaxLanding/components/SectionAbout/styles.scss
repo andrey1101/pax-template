@@ -13,10 +13,10 @@
     align-items: unset;
   }
   .slick-list {
-    padding-bottom: 100px;
+    margin: 0 20px 100px;
 
     @media screen and (max-width: $deviceSizeXS) {
-      padding-bottom: 80px;
+      margin: 0 0 80px;
     }
   }
 

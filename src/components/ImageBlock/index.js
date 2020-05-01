@@ -27,9 +27,7 @@ export const ImageBlock = ({ className, src, alt, children }) => {
 // Type of props
 
 ImageBlock.propTypes = {
-  imageClass: types.string,
-  src: types.string,
-  alt: types.string,
+  prop: types.string,
 };
 
 // Default value for props
