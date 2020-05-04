@@ -20,13 +20,11 @@ import './styles.scss';
 
 // ----------------
 
-export const Header = props => {
-  let [isAsideClose, toggleAsideOn] = useState(true);
-  let [isAsideOpen, toggleAsideOff] = useState(false);
+export const Header = (props) => {
+  let [isAsideOpen, toggleAside] = useState(false);
 
   const handleToggleAside = () => {
-    toggleAsideOff(!isAsideOpen, isAsideClose);
-    toggleAsideOn(isAsideOpen, !isAsideClose);
+    toggleAside(!isAsideOpen);
   };
 
   // Render
