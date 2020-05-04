@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "413b7a519da9bee50a754755d52fd355",
+    "revision": "e88f49489846878a64b2b067e43e5543",
     "url": "/pax-template/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pax-template/static/css/2.b12e7f13.chunk.css"
   },
   {
-    "revision": "8806c67044571bb28f78",
+    "revision": "0b81da8346ebeb1b003a",
     "url": "/pax-template/static/css/main.23a43bee.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pax-template/static/js/2.761d0b39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8806c67044571bb28f78",
-    "url": "/pax-template/static/js/main.7cf8ffa6.chunk.js"
+    "revision": "0b81da8346ebeb1b003a",
+    "url": "/pax-template/static/js/main.76caeb73.chunk.js"
   },
   {
     "revision": "d5055b0deb76e89fb4c4",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pax-template/static/media/left-arrow-icon.2232f20b.svg"
   },
   {
-    "revision": "98b3502df41603403d301c8d3c4b69e8",
-    "url": "/pax-template/static/media/macbook-image.98b3502d.png"
+    "revision": "d6c637adb736fb74e59c961db8426fe8",
+    "url": "/pax-template/static/media/macbook-image.d6c637ad.png"
   },
   {
     "revision": "7e3e86def472b8ee8979638aacf4da3f",
